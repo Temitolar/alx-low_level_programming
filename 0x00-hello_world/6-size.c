@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Program to print size of various computers
+ * main - Entry
  *  
- *  Return: 0 if code runs successfully
+ *  Return: Always 0
  */
 
 int main(void)
