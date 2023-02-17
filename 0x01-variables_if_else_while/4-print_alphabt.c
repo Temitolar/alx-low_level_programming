@@ -9,6 +9,7 @@
 int main(void)
 {
 	char c;
+
 	c = 'a';
 	while
 
@@ -18,5 +19,6 @@ int main(void)
 			c++;
 		}
 	putchar('\n');
+
 	return (0);
 }
