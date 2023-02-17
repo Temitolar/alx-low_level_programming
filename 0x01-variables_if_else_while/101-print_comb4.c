@@ -8,7 +8,9 @@
  */
 
 int main(void)
+
 {
+
 	int d, p, q;
 
 	for (d = '0'; d < '9'; d++)
@@ -23,14 +25,15 @@ int main(void)
 	putchar(p);
 	putchar(q);
 
-	if (d == '7' && p == '8')
+	else if (d == '7' && p == '8')
 		continue;
 		putchar(',');
 		putchar(' ');
 }
 }
 }
-}
+}	
 	putchar('\n');
+
 	return (0);
 }
