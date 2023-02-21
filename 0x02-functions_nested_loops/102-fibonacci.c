@@ -1,4 +1,4 @@
-#include <srdio.h>
+#include <stdio.h>
 
 /**
  * prints the first 52 fibonacci numbers
@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int i = 0
+	int i = 0;
 	long j = 1, k = 2;
 
 	while (i < 50)
