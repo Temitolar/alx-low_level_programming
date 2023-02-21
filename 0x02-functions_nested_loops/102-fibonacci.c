@@ -2,11 +2,12 @@
 
 /**
  * prints the first 52 fibonacci numbers
- * Return: nothing !
+ * Return: nothing 
  */
 
 int main(void)
 {
+
 	int i = 0;
 	long j = 1, k = 2;
 
