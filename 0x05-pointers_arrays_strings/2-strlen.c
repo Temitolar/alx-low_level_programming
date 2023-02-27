@@ -1,16 +1,21 @@
 #include <stdio.h>
 
 /**
- * _strlen - returns tge length os a strjng
- * @a: the string to get tge length of
- * return: the length of @str
+ * _strlen - returns the length of a string
+ * @s: string
+ * return:length
+ *
  */
 
-size_t _strlen(const char *str)
+int _strlen(char *s)
 {
-	size_t length = 0;
+	
+	int longi = 0;
 
-	while (*str++)
-	length ++;
-	return (length);
+	while (*s != '\0')
+	{	
+	longi++;
+	s++;
+	}
+	return (longi);
 }
