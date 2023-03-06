@@ -4,8 +4,8 @@
  * print_chessboard - prints the chessboard
  * @a: input pointer.
  * Return: no return.
+ * This code is written by karintoks
  */
-
 void print_chessboard(char (*a)[8])
 {
 	unsigned int i, m = 0;
