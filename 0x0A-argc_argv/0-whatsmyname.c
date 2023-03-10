@@ -3,9 +3,8 @@
 
 /**
  * main - print the name of the program
- * argc: count argument
- * argv: Argument vector
- *
+ * @argc: count argument
+ * @argv: Argument
  * Return: Always 0
  */
 
