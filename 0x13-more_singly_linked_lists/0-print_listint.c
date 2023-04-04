@@ -6,6 +6,7 @@
  * @h: linked list of type listint_t to print
  *
  * Return: number of nodes
+ * code writren by Temitola
  */
 size_t print_listint(const listint_t *h)
 {
