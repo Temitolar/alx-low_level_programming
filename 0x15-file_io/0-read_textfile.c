@@ -2,10 +2,8 @@
 
 /**
  * read_textfile - read the contents of a text file
- *
  * @filename: filename of the file to be read
  * @letters: number of letters (characters to be read and printed)
- *
  * Return: number of letters read and printed ||-->
  * 0 - if file could not be opened or read
  * 0 - if file name is NULL
@@ -21,8 +19,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (filename == NULL)
 		return (0);
-        if (letters == 0)
-                return (0);
+	if (letters == 0)
+		return (0);
 
 	open_ret_val = open(filename, O_RDONLY);
 	if (open_ret_val == -1)
